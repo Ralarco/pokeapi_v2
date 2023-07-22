@@ -1,5 +1,6 @@
 import './App.css';
 import Header from './components/Header';
+import ListaPokemones from './components/ListaPokemones';
 import NavCategorias from './components/NavCategorias';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
        <Header />
        <NavCategorias />
+       <ListaPokemones />
     </div>
   );
 }

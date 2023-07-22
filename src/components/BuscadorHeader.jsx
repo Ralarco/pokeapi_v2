@@ -13,9 +13,9 @@ function BuscadorHeader() {
               <svg
                 fill="none"
                 stroke="currentColor"
-                stroke-linecap="round"
+                /* stroke-linecap="round" 
                 stroke-linejoin="round"
-                stroke-width="2"
+                stroke-width="2"*/
                 viewBox="0 0 24 24"
                 className="w-6 h-6"
               >
@@ -28,7 +28,7 @@ function BuscadorHeader() {
             name="q"
             className="py-2 text-sm text-white bg-gray-900 rounded-md pl-10 focus:outline-none focus:bg-white focus:text-gray-900"
             placeholder="Buscar..."
-            autocomplete="on"
+            autoComplete="on"
           />
         </div>
       </form>
